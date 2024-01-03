@@ -1,0 +1,39 @@
+{
+    "name": "nature",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "@faker-js/faker": "^8.3.1",
+        "chart.js": "4.4.1",
+        "react": "18.2.0",
+        "react-chartjs-2": "5.2.0",
+        "react-dom": "18.2.0",
+        "web-vitals": "^3.5.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "react-scripts": "latest",
+        "style-loader": "^3.3.3"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "exports": {
+        "./dist": "./dist/index.js"
+    }
+}
